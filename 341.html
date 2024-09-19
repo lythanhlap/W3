@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="border.css">
+    <title>Document</title>
+</head>
+<body>
+    <table border="2">
+        <tr>
+            <th>Tên sản phẩm</th>
+            <th>Giá sản phẩm</th>
+            <th>Số lượng còn lại</th>
+        </tr>
+        <tr>
+            <td>Áo thun nam</td>
+            <td>100.000vnd</td>
+            <td align="center">50</td>
+        </tr>
+        <tr>
+            <td>Quần jean nữ</td>
+            <td>200.000vnd</td>
+            <td align="center">20</td>
+        </tr>
+        <tr>
+            <td>Giày thể thao</td>
+            <td>300.000vnd</td>
+            <td align="center">30</td>
+        </tr>
+        <tr>
+            <td>Remark</td>
+            <td colspan="2">Chỉ thống kê sản phẩm trong kho</td>
+        </tr>
+    </table>
+    <br>
+    <div>
+        <table border="1">
+            <tr>
+                <th>Họ</th>
+                <th>Tên</th>
+                <th>Số điện thoại</th>
+            </tr>
+            <tr>
+                <td>Nguyễn</td>
+                <td>Thảo</td>
+                <td>0123456789</td>
+            </tr>
+            <tr>
+                <td>Lê</td>
+                <td>Tuấn</td>
+                <td>0987654321</td>
+            </tr>
+        </table>
+    </div>
+    <br><br>
+    <div>
+        <table border="2">
+            <thead>
+                <tr>
+                    <th colspan="2">Công ty A</th>
+                    <th colspan="2">Công ty B</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>Số lượng nhân viên</td>
+                    <td>Điểm hài lòng</td>
+                    <td>Số lượng nhân viên</td>
+                    <td>Điểm hài lòng</td>
+                </tr>
+
+                <tr>
+                    <td>200</td>
+                    <td>4.3</td>
+                    <td>1000</td>
+                    <td>3.7</td>
+                </tr>
+            </tbody>
+
+            <tfoot>
+                <tr>
+                    <td colspan="4"> Số liệu được cập nhật lần cuối: 31/03/2024</td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+    <br>
+    <div>
+        <table border="2">
+            <caption>Thông tin về các tháng trong năm 2024</caption>
+
+            <thead>
+                <tr>
+                    <th>Tháng</th>
+                    <th>Số ngày</th>
+                    <th>Nhiệt độ trung bình</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>31</td>
+                    <td>25</td>
+                </tr>
+
+                <tr>
+                    <td>2</td>
+                    <td>29</td>
+                    <td>27</td>
+                </tr>
+
+                <tr>
+                    <td>3</td>
+                    <td>31</td>
+                    <td>28</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <br>
+
+    <div>
+        <table >
+            <thead>
+                <tr>
+                    <th>Tên</th>
+                    <th>Môn</th>
+                    <th>Điểm</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td rowspan="2">Nam</td>
+                    <td>Nhập môn HTML</td>
+                    <td>75</td>
+                </tr>
+
+                <tr>
+                    <td>Nhập môn JavaScript</td>
+                    <td>60</td>
+                </tr>
+
+                <tr>
+                    <td rowspan="2">Tâm</td>
+                    <td>Nhập môn HTML</td>
+                    <td>80</td>
+                </tr>
+
+                <tr>
+                    <td>Nhập môn JavaScript</td>
+                    <td>75</td>
+                </tr>
+            </tbody>
+            
+            <tfoot>
+                <tr>
+                    <td colspan="4">Trung bình: 72.5</td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+    <p>Ví dụ 3</p>
+    <div>
+        <table>
+            <caption>Trình độ học vấn của nhân sự công ty A</caption>
+
+            <thead class="theadVD3">
+                <tr>
+                    <th rowspan="2">Tên</th>
+                    <th rowspan="2">Tuổi</th>
+                    <th colspan="2">Trình độ học vấn</th>
+                    <th rowspan="2">Bằng cấp tiếng anh</th>
+                </tr>
+
+                <tr>
+                    <th>Bằng cấp cao nhất</th>
+                    <th>Cấp năm</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <th>Nguyên</th>
+                    <td>32</td>
+                    <td>Đại học</td>
+                    <td>2014</td>
+                    <td>Không có</td>
+                </tr>
+
+                <tr>
+                    <th>Lý</th>
+                    <td>29</td>
+                    <td>Cao đẳng</td>
+                    <td>2017</td>
+                    <td>Không có</td>
+                </tr>
+
+                <tr>
+                    <th>Tiên</th>
+                    <td>28</td>
+                    <td>Đại học</td>
+                    <td>2018</td>
+                    <td>IELTS</td>
+                </tr>
+            </tbody>
+
+            <tfoot class="tfootVD3">
+                <tr>
+                    <th colspan="4">Trung bình nhân sự có bằng cấp tiếng Anh</th>
+                    <th>33.33%</th>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+</body>
+</html>

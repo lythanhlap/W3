@@ -1,0 +1,34 @@
+h1{
+    color: red;
+    opacity: 100%;
+}
+
+h2{
+    color: blue;
+    opacity: 80%;
+}
+
+h3{
+    color: blueviolet;
+    opacity: 60%;
+}
+
+h4{
+    color:cadetblue ;
+    opacity: 40%;
+}
+
+h5{
+    color: chocolate;
+    opacity: 20%;
+}
+
+.imgOpacity{
+    opacity: 80%;
+    width: 200px;
+    height: 150px;
+}
+
+body{
+    background-image: url(../Backgrounds/premium_vector-1689096654202-bc3a352d0637.avif);
+}

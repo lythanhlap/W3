@@ -1,0 +1,12 @@
+input:checked ~ img{
+    /* Nếu muốn biến mất khỏi giao diện */
+    /* display: none; không hỗ trợ animations */
+    /* display: none; */
+    /* làm mờ khỏi giao diện có tương tác được*/
+    opacity: 0;
+    /* Ẩn khỏi giao diện không tương tác được */
+    visibility: hidden;
+}
+img{
+    transition: 1.5s;
+}
