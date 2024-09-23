@@ -1,0 +1,113 @@
+
+body{
+    background-color: #f5f5f5;
+}
+.container{
+    margin: 0 auto;
+    max-width: 1408px;
+    /* border: 1px solid red;  */
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+.label1{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 2%;
+    
+}
+.label2{
+    margin-top: 12px;
+    text-align: center;
+    font-size: 16px;
+    color: #404040;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 2%;
+    
+}
+
+table{
+    border:1px solid #D4D4D4 ;
+    width: 100%;
+    text-align: center;
+    background-color: white ;
+}
+/* td{
+    border:1px solid #D4D4D4 ;
+    text-align: center;
+} */
+
+td{
+    padding: 10px;
+    border:1px solid #D4D4D4 ;
+    width: 100%;
+    text-align: center;
+}
+
+.table_o{
+    width: 12.25%;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21.79px;
+    letter-spacing: 2%;
+}
+
+.ColorZumba{
+    color:#EA580C;
+    ;
+}
+
+.ColorZumba1{
+    color:#EA580C;
+}
+
+tr:nth-child(2n+1) {
+    background-color: #f5f5f5 ;
+}
+.powerdancecolor{
+    color: #4FBF70;
+}
+.dinhduongcolor{
+    color:#06B6D4;
+    ;
+}
+.yogacolor{
+    color: #eab308;
+}
+
+.logo1{
+    float: left;
+    width: 40%;
+    /* border: 1px solid black; */
+    height: 40px;
+}
+
+.navbar1{
+    float: right;
+    /* border: 1px solid black; */
+    width: 58%;
+    height: 40px;
+
+}
+
+.navbar1 li{
+    list-style: none;
+    float: right;
+    margin-left: 10px;
+    padding-right: 10px;
+    
+}
+#content{
+    background-color: #f5f5f5;
+    clear: both;
+    padding: 30px;
+}
+.container{
+    margin: 0 auto;
+    max-width: 1408px;
+    margin-top: 30px;
+    font-family: sans-serif;
+}
