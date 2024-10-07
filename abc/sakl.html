@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang Sản Phẩm</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        .header {
+            text-align: center;
+            background-color: #007BFF;
+            color: white;
+            padding: 20px;
+            border-radius: 8px 8px 0 0;
+        }
+
+        .header h1 {
+            margin: 0;
+        }
+
+        .product-image {
+            width: 100%;
+            max-width: 400px;
+            display: block;
+            margin: 20px auto;
+        }
+
+        .product-description, .product-price, .product-features {
+            margin: 20px 0;
+        }
+
+        .product-features ul {
+            list-style-type: square;
+            padding-left: 20px;
+        }
+
+        .buttons {
+            text-align: center;
+        }
+
+        .buttons button {
+            padding: 10px 20px;
+            font-size: 16px;
+            margin: 10px;
+            cursor: pointer;
+            border: none;
+            color: white;
+            background-color: #28a745;
+            border-radius: 5px;
+        }
+
+        .buttons button:hover {
+            background-color: #218838;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- Tiêu đề trang -->
+        <div class="header">
+            <h1>Tên Sản Phẩm</h1>
+        </div>
+
+        <!-- Hình ảnh sản phẩm -->
+        <img src="duong_dan_anh_san_pham.jpg" alt="Hình ảnh sản phẩm" class="product-image">
+
+        <!-- Mô tả sản phẩm -->
+        <div class="product-description">
+            <h2>Mô tả sản phẩm</h2>
+            <p>Đây là một mô tả ngắn về sản phẩm, giới thiệu những điểm nổi bật và lý do tại sao bạn nên mua sản phẩm này.</p>
+        </div>
+
+        <!-- Giá sản phẩm -->
+        <div class="product-price">
+            <h2>Giá: 1,000,000 VND</h2>
+        </div>
+
+        <!-- Các tính năng sản phẩm -->
+        <div class="product-features">
+            <h2>Tính năng chính</h2>
+            <ul>
+                <li>Tính năng 1</li>
+                <li>Tính năng 2</li>
+                <li>Tính năng 3</li>
+            </ul>
+        </div>
+
+        <!-- Nút Thêm vào giỏ hàng và Mua ngay -->
+        <div class="buttons">
+            <button>Thêm vào giỏ hàng</button>
+            <button>Mua ngay</button>
+        </div>
+    </div>
+
+</body>
+</html>

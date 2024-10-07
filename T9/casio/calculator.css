@@ -1,0 +1,28 @@
+.container{
+    max-width: 400px;
+    margin: 0 auto;
+    border: 1px solid pink;
+    margin-top: 50px;
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+    
+}
+
+.rs{
+    width: 320px;
+    padding: 8px;
+    margin-bottom: 20px;
+}
+
+.row1{
+    display: grid;
+    grid-template-columns: repeat(4, 80px 80px 80px 90px);
+    max-width: 340px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.btn1{
+    width: 40px;
+    height: 40px;
+}

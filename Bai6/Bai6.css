@@ -1,0 +1,47 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Gowun Batang", serif;
+}
+.container{
+    max-width: 1170px;
+    margin: 0px auto;
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(2, 20% 80%);
+    color: rgb(52, 98, 36);
+}
+.logo1 img{
+    width: 150px;
+    height: 50px;
+}
+.menu1 li{
+    list-style: none;
+    position: relative;
+    
+
+}
+
+.list1 {
+    display: grid;
+    grid-template-columns: repeat(5, 10% 10% 10% 10% 20%);
+    padding-top: 10px;
+}
+.menu1 ul li ul{
+    display: none;
+}
+.menu1 ul li:hover ul{
+    display: block;
+}
+.list_TK{
+    background-color: beige;
+    position: absolute;
+}
+
+.anh1 img{
+    padding-left: 500px;
+    position: absolute;
+}
